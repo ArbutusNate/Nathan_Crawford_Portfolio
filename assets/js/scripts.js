@@ -10,4 +10,8 @@ $(window).on("load", function() {
   $(this).scrollTop(0);
   // new TypeIt;
   tiAnimation();
+  $('.card').flip({
+    trigger: 'hover',
+    speed: 900
+  });
 })
