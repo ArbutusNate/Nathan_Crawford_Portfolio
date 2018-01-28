@@ -16,7 +16,7 @@
 <body>
   <div class="text-center">
     <!-- Portfolio Header -->
-    <div class="container-fluid background">
+    <div class="container-fluid background head">
       <h2 class="header-text"> Nathan's Portfolio </h2>
     </div>
 
@@ -26,56 +26,79 @@
     </div>
 
     <!-- Projects -->
-    <div class="container-fluid background">
-      <h3> Projects </h3>
+    <div class="container-fluid content background">
+      <h3>Work</h3>
+
+        <div class="row">
           <!-- GameVault -->
-          <div class="card">
+          <div class="col-md-6 card">
             <div class="front">
+              <img class="gv" src="./assets/images/gv-logo.png">
               Game Vault
             </div>
             <div class="back">
-              https://game-vault.herokuapp.com/
+              <a target="_" href="https://game-vault.herokuapp.com">https://game-vault.herokuapp.com/</a>
             </div>
           </div>
           <!-- WildHawgz -->
-        <div class="card">
-          <div class="front">
-            WildHawgz Community Tournaments
-          </div>
-          <div class="back">
-            https://wildhawgz.herokuapp.com/
+          <div class="col-md-6 card">
+            <div class="front">
+              WildHawgz Community Tournaments
+            </div>
+            <div class="back">
+              <a target="_" href="http://wildhawgz/herokuapp.com/">https://wildhawgz.herokuapp.com/</a>
+            </div>
           </div>
         </div>
+
+        <div class="row">
           <!-- ArtHub -->
-        <div class="card">
-          <div class="front">
-            ArtHub
+          <div class="col-md-6 card">
+            <div class="front">
+              ArtHub
+            </div>
+            <div class="back">
+              <a target="_" href="https://arthub-project.herokuapp.com/">https://arthub-project.herokuapp.com/</a>
+            </div>
           </div>
-          <div class="back">
-            https://arthub-project.herokuapp.com/
-          </div>
-        </div>
           <!-- The Verge -->
-        <div class="card">
-          <div class="front">
-            The Verge
-          </div>
-          <div class="back">
-            https://arbutusnate.github.io/Verge/
+          <div class="col-md-6  card">
+            <div class="front">
+              The Verge
+            </div>
+            <div class="back">
+              <a target="_" href="http://arbutusnate.github.io/Verge/">https://arbutusnate.github.io/Verge/</a>
+            </div>
           </div>
         </div>
     </div>
 
     <!-- Skills -->
     <div class="sunken">
-      <h3> Skills </h3>
+      <h3> Skills <span class="glyphicon glyphicon-minus" aria-hidden="true"></span> </h3>
     </div>
 
     <!-- Profiles -->
-    <div class="container-fluid background">
-      <h3> Profiles </h3>
-      <div>gitHub https://github.com/ArbutusNate</div>
-      <div>LinkedIn https://www.linkedin.com/in/nate-crawford/</div>
+    <div class="container-fluid content profile background">
+      <!-- <h3> Profiles </h3> -->
+      <div class="row">
+        <div class="col-md-6 contact-card">
+          <div class="front">
+            <img src="./assets/images/gh-icon.png" />
+          </div>
+          <div class="back">
+            https://github.com/ArbutusNate
+          </div>
+        </div>
+        <div class="col-md-6 contact-card">
+          <div class="front">
+            <img src="./assets/images/linked-icon.png" />
+          </div>
+          <div class="back">
+            https://www.linkedin.com/in/nate-crawford/
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Contacts -->

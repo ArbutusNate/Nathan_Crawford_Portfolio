@@ -12,6 +12,11 @@ $(window).on("load", function() {
   tiAnimation();
   $('.card').flip({
     trigger: 'hover',
-    speed: 900
+    speed: 900,
+    axis: 'x'
   });
+  $('.contact-card').flip({
+    trigger: 'hover',
+    speed: 600
+  })
 })

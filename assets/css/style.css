@@ -6,14 +6,13 @@ body {
 .background {
   background-image: url(../images/stardust.png);
   /*width: 1%;*/
-  height: 600px;
   box-shadow: 1px 1px 20px black;
   color: #b6b6d8;
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'PT Sans Narrow', sans-serif;*/
   font-family: 'Noto Sans', sans-serif;
-  /*font-family: 'Istok Web', sans-serif;*/
-  /*font-family: 'Hammersmith One', sans-serif;*/
+}
+
+.head {
+  height: 600px;
 }
 
 .header-text {
@@ -34,4 +33,27 @@ body {
 .card {
   background: none;
   border: none;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  /*margin: 5px;*/
+}
+
+.contact-card {
+  width: 100px;
+  height: 100px;
+}
+
+.gv {
+  height: 100px;
+  width: 100px;
+  /*background-image: url(../images/gv-logo.png);*/
+}
+
+.content {
+  padding: 10px 0px;
+}
+
+.profile {
+  height: 150px;
 }
