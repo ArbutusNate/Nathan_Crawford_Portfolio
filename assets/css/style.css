@@ -57,3 +57,19 @@ body {
 .profile {
   height: 150px;
 }
+
+.skill-item {
+  margin: 5px -5px;
+  font-size: 16px;
+  /*border-left: solid 2px gainsboro;*/
+  padding: 0px 5px;
+  /*border-right: solid 2px gainsboro;*/
+}
+
+/*.left {
+  border-left: solid 4px gainsboro;
+}
+
+.right {
+  border-right: solid 4px gainsboro;
+}*/
