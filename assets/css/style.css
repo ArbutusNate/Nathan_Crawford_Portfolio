@@ -99,4 +99,12 @@ body {
     margin: auto;
     width: 100%;
   }
+
+  .contact-card {
+    width: 45%;
+  }
+
+  .small-img {
+    height: 75px;
+  }
 }
