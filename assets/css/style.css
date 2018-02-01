@@ -54,6 +54,10 @@ body {
   padding: 10px 0px;
 }
 
+.contact {
+  margin-bottom: 0px;
+}
+
 .profile {
   height: 150px;
 }
@@ -73,3 +77,26 @@ body {
 .right {
   border-right: solid 4px gainsboro;
 }*/
+
+@media (max-width: 426px) {
+  .header-text {
+    line-height: 150px;
+  }
+
+  .head {
+    height: 300px;
+  }
+
+  .sunken p {
+    font-size: 15px;
+  }
+
+  .work span {
+    /*visibility: hidden;*/
+  }
+
+  .card {
+    margin: auto;
+    width: 100%;
+  }
+}
